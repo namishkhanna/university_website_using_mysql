@@ -1,0 +1,143 @@
+.nav-item{
+	text-shadow: 10px;
+	border-radius: 5px;
+	margin-left: 30px;
+	font-size: 15px;
+	font-weight:bold;
+	font-family: Arial;
+}
+
+.mainname
+{
+	font-size: 50px;
+	color: black;
+	font-family: TheTimesNewRoman;
+	font-weight: bolder;
+	background-color: tomato;
+
+}
+.carousel-inner
+{
+	height: 450px;
+}
+.backgroundImageCVR{
+	position:relative;
+	padding:15px;
+}
+.background-image{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	height: 100%;
+	background:url('office.jpg');
+	background-size:cover;
+	z-index:1;
+	-webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);	
+}
+.background-image1{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background:url('bg.jpg');
+	background-size:cover;
+	z-index:1;
+	-webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);	
+}
+
+.content{
+	position:relative;
+	z-index:2;
+	color:black;
+	display: inline-block;
+}
+.card{
+	position:relative;
+	z-index:2;
+	color:white;
+	display: inline-block;
+	background-color: #343a40;
+}
+.maplast:hover{
+	color: yellow;
+	cursor: pointer;
+}
+#mailof:hover{
+	color: yellow;
+	cursor: pointer;
+}
+#videoplay
+{
+
+	box-shadow: 0 0 40px black;
+}
+#form1{
+	background-color:#212529; 
+	color: white; 
+	font-weight:bold;
+	border-radius: 10px;
+	box-shadow: 0 0 40px black;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: none;
+}
+#carouselExampleIndicators{
+	padding-bottom: 10px;
+}
+#navbarDropdown:hover{
+background-color:#007bff;	
+	};
+#About:hover{
+	background-color:#007bff;
+}
+#Home:hover{
+	background-color:#007bff;
+}
+#About:hover{
+	background-color:#007bff;
+}
+#Contact:hover{
+	background-color:#007bff;
+}
+#formButton
+{
+	margin-right:40%;
+	infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+@-webkit-keyframes glowing {
+  0% { background-color: #007bff; -webkit-box-shadow: 0 0 3px #007bff; }
+  50% { background-color: #FF0000; -webkit-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #007bff; -webkit-box-shadow: 0 0 3px #007bff; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #007bff; -moz-box-shadow: 0 0 3px #007bff; }
+  50% { background-color: #FF0000; -moz-box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #007bff; -moz-box-shadow: 0 0 3px #007bff; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #007bff; box-shadow: 0 0 3px #007bff; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #007bff; box-shadow: 0 0 3px #007bff; }
+}
+
+@keyframes glowing {
+  0% { background-color: #007bff; box-shadow: 0 0 3px #007bff; }
+  50% { background-color: #FF0000; box-shadow: 0 0 40px #FF0000; }
+  100% { background-color: #007bff; box-shadow: 0 0 3px #007bff; }
+}
